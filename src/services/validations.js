@@ -6,15 +6,15 @@ export function validations(size, checkerboard){
         alert("please enter numbers ranging between 1 - 20")
         return false;
       }
-      if(checkerboard === 0 ||
-        checkerboard < 0 ||
+      if(checkerboard === 1 ||
+        checkerboard < 1 ||
         checkerboard === ''){
-          alert("please enter numbers ranging between 1 - 20")
+          alert("please enter number of checkerboard ranging between 2 - 20")
           return false;
         }
 
-      if(checkerboard > 20 ||
-         size > 20){
+      if(checkerboard > 30 ||
+         size > 30){
            alert("please enter numbers ranging between 1 - 20")
            return false;
          }
