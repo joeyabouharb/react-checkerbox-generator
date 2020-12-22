@@ -1,12 +1,12 @@
 
-  Name: "checkerboard-app",
+  `Name: "checkerboard-app",
   Author: "Joseph Abouharb",
   Description": "Checkboard pattern generator",
   Main file: "./src/App.js".
-  License: "MIT"
+  License: "MIT"`
 
 
-#Checkboard generator
+# Checkboard generator
 
 This application is using the Javascript framework React. bootsrapped using create-react-app
 
